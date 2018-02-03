@@ -1,4 +1,4 @@
-package laction
+package location
 
 import (
 	"strings"
