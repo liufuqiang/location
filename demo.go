@@ -1,11 +1,10 @@
-package main
-
+package mypackage
 import (
 	"fmt"
 
 	"github.com/liufuqiang/location"
 )
 
-func main() {
+func myFunc() {
 	fmt.Println(location.GetLocation("China", "Beijing", "Chaoyang"))
 }
