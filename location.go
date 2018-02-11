@@ -68,6 +68,7 @@ var location_en = map[string][]string{
 	"xinjiang":     []string{"wulumuqi", "hami", "kashi", "bayinguoleng", "changji", "yili", "aletai", "kelamayi", "boertala"},
 	"xianggang":    []string{"zhongxiqu", "wanziqu", "dongqu", "nanqu", "jiulong-youjianwangqu", "jiulong-shenshuibuqu", "jiulong-jiulongchengqu", "jiulong-huangdaxianqu", "jiulong-guantangqu", "xinjie-beiqu", "xinjie-dapuqu", "xinjie-shatianqu", "xinjie-xigongqu", "xinjie-quanwanqu", "xinjie-tunmenqu", "xinjie-yuanlangqu", "xinjie-kuiqingqu", "xinjie-lidaoqu"},
 	"aomen":        []string{"huadimatangqu", "shenganduonitangqu", "datangqu", "wangdetangqu", "fengshuntangqu", "jiamotangqu", "shengfangjigetangqu", "ludangcheng"},
+	"taiwan":       []string{"taibei", "xinbei", "taoyuan", "taizhong", "tainan", "gaoxiong"},
 }
 
 var en_zh_map = map[string]string{
@@ -436,6 +437,12 @@ var en_zh_map = map[string]string{
 	"aomen_jiamotangqu":                "嘉模堂区",
 	"aomen_shengfangjigetangqu":        "圣方济各堂区",
 	"aomen_ludangcheng":                "路氹城",
+	"taiwan_taibei":                    "台北",
+	"taiwan_xinbei":                    "新北",
+	"taiwan_taoyuan":                   "桃园",
+	"taiwan_taizhong":                  "台中",
+	"taiwan_tainan":                    "台南",
+	"taiwan_gaoxiong":                  "高雄",
 }
 
 var country_map = map[string]string{
