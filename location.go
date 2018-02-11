@@ -15,6 +15,7 @@ func GetLocation(country, province, city string) string {
 
 	province = strings.ToLower(province)
 	city = strings.ToLower(city)
+	city = strings.Replace(city, "'", "", 1) // like xi'an
 
 	if province == "shanxi" && strings.Contains(`"xian", "xianyang", "yanan", "hanzhong", "yulin", "shangnan", "lueyang", "yijun", "linyou", "baihe"`, city) {
 		province = "shanxin2"
